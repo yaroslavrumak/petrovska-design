@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LLBrown400';
+  src: local('LL Brown Regular'), local('LL-Brown-Regular'),
+      url('./assets/fonts/Brown-Regular.woff2') format('woff2'),
+      url('./assets/fonts/Brown-Regular.woff') format('woff'),
+      url('./assets/fonts/Brown-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LLBrown300';
+  src: local('LL Brown Light'), local('LL-Brown-Light'),
+      url('./assets/fonts/Brown-Light.woff2') format('woff2'),
+      url('./assets/fonts/Brown-Light.woff') format('woff'),
+      url('./assets/fonts/Brown-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LLBrownItalic400';
+  src: local('LL Brown Regular Italic'), local('LL-Brown-Regular-Italic'),
+      url('./assets/fonts/Brown-RegularItalic.woff2') format('woff2'),
+      url('./assets/fonts/Brown-RegularItalic.woff') format('woff'),
+      url('./assets/fonts/Brown-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LLBrownItalic300';
+  src: local('LL Brown Light Italic'), local('LL-Brown-Light-Italic'),
+      url('./assets/fonts/Brown-LightItalic.woff2') format('woff2'),
+      url('./assets/fonts/Brown-LightItalic.woff') format('woff'),
+      url('./assets/fonts/Brown-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Shippori Mincho';
+  src: local('Shippori Mincho Regular'), local('Shippori-Mincho-Regular'),
+      url('./assets/fonts/ShipporiMincho-Regular.woff2') format('woff2'),
+      url('./assets/fonts/ShipporiMincho-Regular.woff') format('woff'),
+      url('./assets/fonts/ShipporiMincho-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LLBrown100';
+  src: local('LL Brown Thin'), local('LL-Brown-Thin'),
+      url('./assets/fonts/Brown-Thin.woff2') format('woff2'),
+      url('./assets/fonts/Brown-Thin.woff') format('woff'),
+      url('./assets/fonts/Brown-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+html{
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+body{
+  font-family: 'LLBrown300';
+  background: white;
+  color: black;
+  font-size: clamp(1rem,.85rem + .53333vw,1.25rem);
+}

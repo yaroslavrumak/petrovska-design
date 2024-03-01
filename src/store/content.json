@@ -1,0 +1,39 @@
+{
+    "contacts": [
+        "Kosmonavtiv av. 30a",
+        "Vinnytsia, Ukraine",
+        "+380931112233"
+    ],
+
+    "navItems" : [
+        {
+          "title": "About",
+          "anchor": "#about"
+        },
+        {
+          "title": "Projects",
+          "anchor": "#projects"
+        },
+        {
+          "title": "Contact",
+          "anchor": "#contact"
+        }
+    ],
+    "socialLinks": [
+        {
+            "id": "instagram",
+            "link": "",
+            "title": "Instagram"
+        },
+        {
+            "id": "tiktok",
+            "link": "",
+            "title": "TikTok"
+        },
+        {
+            "id": "contact",
+            "link": "#",
+            "title": "Contact"
+        }
+    ]
+}
